@@ -5,7 +5,7 @@ def random_numbers():
     count=1
     while gamer!= str(num):
         if gamer.isdigit() != True or (1>int(gamer) or int(gamer)>100):
-            print ('А может все-таки введем целое число от 1 до 100?')
+            print ('Дай мне целое число от 1 до 100!')
             count+=1
             gamer=input()
         elif int(gamer) > num:
